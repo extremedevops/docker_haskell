@@ -1,8 +1,6 @@
 FROM ubuntu:trusty
 MAINTAINER Leandro David Cacciagioni <leandro.21.2008@gmail.com>
 
-CMD ghci
-
 RUN export DEBIAN_FRONTEND=noninteractive && \
   apt-get update && \
   apt-get dist-upgrade -qqy && \
@@ -15,3 +13,5 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
   rm -rf /usr/share/man/?? && rm -rf /usr/share/man/??_*
 
 ENV PATH="${HOME}/.cabal/bin:/opt/cabal/1.22/bin:/opt/ghc/7.10.2/bin:${PATH}"
+
+CMD ghci
