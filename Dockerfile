@@ -13,3 +13,5 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
   apt-get autoremove -qqy && \
   apt-get clean && apt-get autoclean && \
   rm -rf /usr/share/man/?? && rm -rf /usr/share/man/??_*
+
+ENV PATH="${HOME}/.cabal/bin:/opt/cabal/1.22/bin:/opt/ghc/7.10.2/bin:${PATH}"
