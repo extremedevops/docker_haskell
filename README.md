@@ -29,3 +29,9 @@ Haskell lends itself well to concurrent programming due to its explicit handling
 Open source contribution to Haskell is very active with a wide range of packages available on the public package servers.
 
 > For more information visit [Haskell site](https://www.haskell.org/documentation)
+
+## About this image
+
+This image is based upon [ubuntu:trusty](https://hub.docker.com/_/ubuntu/) and integrating the [ppa:hvr/ghc](https://launchpad.net/~hvr/+archive/ubuntu/ghc) which is recommended by the haskell community for an easy setup on ubuntu based distros. You can see the contents of each release [here](https://github.com/extremedevops/docker_haskell/releases).
+
+> This is an image for intermediate and advanced users because it only contains the base packages and not the full [Haskell Platform](https://www.haskell.org/platform/linux.html).
