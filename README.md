@@ -1,5 +1,7 @@
 # Haskell
 
+[![](https://badge.imagelayers.io/extremedevops/haskell:latest.svg)](https://imagelayers.io/?images=extremedevops/haskell:latest 'Get your own badge on imagelayers.io')
+
 Haskell is one of the most advanced purely-functional programming languages in the world.
 
 ## Features
